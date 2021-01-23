@@ -1,0 +1,276 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">DEVMEXAI</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ACERCA</a></li>
+        <li><a href="#services">SERVICIOS</a></li>
+        <li><a href="#portfolio">PORTAFOLIO</a></li>
+        <li><a href="#pricing">PRECIOS</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>DEVMEXAI</h1> 
+  <p>Construiré una aplicación móvil tanto para IOS como para andriod</p> 
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Correo" required>
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-success">Contactar</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>Quienes somos</h2><br>
+      <h4>
+            Somos un equipo de desarrolladores que se especializan en aspectos únicos del desarrollo de software. Trabajamos tanto en dispositivos móviles como en la web. Nuestro objetivo es trabajar en estrecha colaboración con los clientes para comprender sus necesidades y convertir sus ideas en una aplicación.</h4><br>
+      <p>Hemos trabajado con clientes de Startups, empresas independientes, IA y empresas basadas en productos a pequeña escala y muchos más, y nos enorgullecemos de utilizar tecnologías de vanguardia para lograr los resultados perfectos para su proyecto.</p>
+    </div>
+    <div class="col-sm-4">
+      <img [src]=myimage>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+            <img [src]=app3>
+    </div>
+    <div class="col-sm-8">
+      <h2>Qué ofrecemos y por qué somos tan únicos:</h2><br>
+      <h4> Tratamos cada aplicación como nuestro propio producto
+        No paramos hasta que sea perfecto.
+        La función de seguimiento en línea estará disponible para realizar un seguimiento del progreso de su proyecto.</h4><br>
+      <p><strong>Que puedes esperar:</strong></p>
+      <ul>
+            <li>Calidad de los entregables                </li>
+            <li>Tiempo de respuesta muy rápido</li>
+            <li>Consulta y soporte gratuitos, siempre que lo necesite</li>
+          </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div id="services" class="container-fluid text-center">
+  <h2>NUESTRO PROCESO DE DESARROLLO</h2>
+  <h4>Lo que ofrecemos</h4>
+  <br>
+    <div class="col-sm-4">
+      <img [src]="req" alt="Paris" width="400" height="300">
+      <h4>Recopilar y analizar requisitos del cliente</h4>
+    </div>
+    <div class="col-sm-4">
+        <img [src]="wireframe" alt="Paris" width="400" height="300">
+        <h4>Flujo de la aplicación Wireframing</h4>
+    </div>
+    <div class="col-sm-4">
+      <img [src]="appdesign" alt="Paris" width="400" height="300">
+      <h4>Diseños de aplicaciones</h4>
+    </div>
+  <br><br>
+    <div class="col-sm-4">
+      <img [src]="dev" alt="Paris" width="400" height="300">
+      <h4>Desarrollo de aplicaciones</h4>
+    </div>
+    <div class="col-sm-4">
+      <img [src]="qacontrol" alt="Paris" width="400" height="300">
+      <h4>Control de calidad y pruebas</h4>
+    </div>
+    <div class="col-sm-4">
+      <img [src]="app1" alt="Paris" width="400" height="300">
+      <h4 style="color:#303030;">Soporte y mantenimiento</h4>
+    </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center bg-grey">
+
+    <div id="experience" class="container-fluid text-center">
+    <h2>NUESTRA EXPERIENCIA</h2><br>
+    <h4>Con una experiencia de más de 15 años, hemos desarrollado numerosas aplicaciones como:</h4>
+        <div class="col-sm-4">
+        <div class="thumbnail">
+            <img [src]="freechat" alt="Paris" width="300" height="300">
+            <p><strong>Aplicaciones de chat  </strong></p>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="thumbnail">
+            <img [src]="ecommerce" alt="Paris" width="300" height="300">
+            <p><strong>Aplicaciones de compras</strong></p>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="thumbnail">
+            <img [src]="nomadic" alt="Paris" width="300" height="300">
+            <p><strong>Aplicaciones bajo demanda</strong></p>
+        </div>
+        </div> 
+        <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img [src]="games"  class="animated-gif" alt="Paris" width="300" height="300">
+                    <p><strong>Aplicaciones de viajes y entretenimiento</strong></p>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img [src]="delivery" class="animated-gif" alt="Paris" width="300" height="300">
+                    <p><strong>Aplicaciones de entrega de comida</strong></p>
+                </div>
+                </div>
+                <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img [src]="cloudmusic" class="animated-gif" alt="Paris" width="300" height="300">
+                    <p><strong>Aplicaciones de música en línea</strong></p>
+                </div>
+                </div>                
+    </div>
+
+  <h2>Lo que dicen nuestros clientes</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"
+                Absolutamente la mejor decisión que tomé fue trabajar con DEVMEXAI. Son excelentes y entregan un producto de calidad. ¡Espero trabajar con este equipo en proyectos futuros!"<br><span>GNP</span></h4>
+      </div>
+      <div class="item">
+        <h4>"
+                Realmente aprecio el gran trabajo. Increíble comunicación y excelente capacidad de respuesta. ¡Trabajaré con este equipo nuevamente!"<br><span>TENOLI</span></h4>
+      </div>
+      <div class="item">
+        <h4>"
+                Muy profesional, comprensivo y fácil de trabajar. Tienen un equipo de desarrollo completo y han cumplido con nuestro mandato. Recomiendo encarecidamente sus servicios."<br><span> UNIDEV</span></h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (Pricing Section) -->
+<div id="pricing" class="container-fluid">
+  <div class="text-center">
+    <h2>Comparar paquetes</h2>
+    <h4>Recomendado para ti</h4>
+  </div>
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Basico </h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>APLICACIÓN SIMPLE PARA IPHONE O ANDROID</strong> </p>
+          <p> Diseño y desarrollo de una aplicación móvil simple y a pequeña escala para iPhone o Android con backend.</p>
+
+        </div>
+        <div class="panel-footer">
+          <h3>$5000</h3>
+          <h4>por mes</h4>
+        </div>
+      </div>      
+    </div>     
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Estándar</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>APLICACIÓN DE TAMAÑO MEDIO PARA IPHONE O ANDROID</strong></p>
+          <p>Diseño y desarrollo de una aplicación móvil de mediana escala para iPhone o Android con backend.</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$ 11000</h3>
+          <h4>por mes</h4>
+        </div>
+      </div>      
+    </div>       
+    <div class="col-sm-4 col-xs-12">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>Premium</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>APLICACIÓN ADVANCE PARA IPHONE Y ANDROID</strong></p>
+          <p> Diseño y desarrollo de una compleja aplicación móvil a gran escala para iPhone y Android con backend.</p>
+        </div>
+        <div class="panel-footer">
+          <h3>$19000</h3>
+          <h4>por mes</h4>
+        </div>
+      </div>      
+    </div>    
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACTO</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contáctanos y te responderemos en un plazo de 24 horas.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Valle de Mitla 101 Fuentes de Aragón 55210 Ecatepec de Morelos, Méx</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 5586765674</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> v.hernandez.s12373@hotmail.com</p>
+    </div>
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Correo" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Enviar</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img [src]="checkout" class="w3-image w3-greyscale-min" style="width:100%">
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>NOTA: ¡Asegúrese de contactarnos antes de realizar el pedido para que podamos discutir su proyecto primero y comprender bien sus necesidades! <a href="https://www.devmexai.com" title="Visita devmexai">www.devmexai.com</a></p>
+</footer>
+
+
+<router-outlet></router-outlet>
